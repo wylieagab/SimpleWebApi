@@ -19,4 +19,4 @@ Given more time I would firstly refactor the controller so that the helper funct
 In addition to this, I believe that in a realworld scenario the endpoints and other connection strings would need to be secured as secrets either in Kubernetes or Azure KeyVault. 
 With the refactored engine many more methods could be created to supply more information about and also we could easily translate the selected robots to there destination
 which could readily be stored in the database I have prepared. Also after use of this API, we could identify bottleknecks that could be eleviated by cacheing 
-or scaling the solution. 
+or scaling the solution. In addition to all of the above we could implement tests for this solution utilizing TDD so that we can ensure the lively hood as well as deployment of the API.
