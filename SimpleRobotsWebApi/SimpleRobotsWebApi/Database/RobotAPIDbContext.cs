@@ -7,6 +7,7 @@ namespace SimpleRobotsWebApi.Database
     {
         public RobotAPIDbContext(DbContextOptions options) : base(options)
         {
+            
         }
 
         public DbSet<RobotInfo> RobotInfo { get; set; }

@@ -233,6 +233,19 @@
           }
         }
       },
+      "RestSharp/108.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -661,6 +674,24 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "RestSharp/108.0.2": {
+      "sha512": "zI1lzI+Jjzl6bcicyUYfLIGmmOAdJRkYepMnSPzrxd1o9RxztPaR/blUOmY8BpXdN3I+XlK9dtwCYRGCxvaODw==",
+      "type": "package",
+      "path": "restsharp/108.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/RestSharp.dll",
+        "lib/net5.0/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.108.0.2.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -819,6 +850,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.InMemory >= 6.0.10",
+      "RestSharp >= 108.0.2",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -864,6 +896,10 @@
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[6.0.10, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[108.0.2, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

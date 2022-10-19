@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using SimpleRobotsWebApi.Database;
 using SimpleRobotsWebApi.Models;
-using System.Security.AccessControl;
 
 namespace SimpleRobotsWebApi.Controllers
 {
@@ -24,13 +23,12 @@ namespace SimpleRobotsWebApi.Controllers
             var availableRobots = _dbContext.RobotInfo.ToList();
             var nearestRobot = GetNearestRobot(nearestRobotRequest, availableRobots);
 
-
             return Ok(nearestRobot);
         }
 
         private NearestRobot GetNearestRobot(NearestRobotRequest nearestRobotRequest, List<RobotInfo> availableRobots)
         {
-            var nearestRobotQueue = new PriorityQueue<NearestRobot, NearestRobot>();
+            var nearestRobotQueue = new PriorityQueue<NearestRobot, NearestRobot>(new NearestRobotComparer());
 
             for(int i = 0; i < availableRobots.Count; i++)
             {

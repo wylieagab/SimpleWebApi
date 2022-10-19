@@ -30,3 +30,4 @@ C:\Users\16504\Documents\dev\TakeHomes\SVTRobots\SimpleRobotsWebApi\SimpleRobots
 C:\Users\16504\Documents\dev\TakeHomes\SVTRobots\SimpleRobotsWebApi\SimpleRobotsWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\16504\Documents\dev\TakeHomes\SVTRobots\SimpleRobotsWebApi\SimpleRobotsWebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\16504\Documents\dev\TakeHomes\SVTRobots\SimpleRobotsWebApi\SimpleRobotsWebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\16504\Documents\dev\TakeHomes\SVTRobots\SimpleRobotsWebApi\SimpleRobotsWebApi\bin\Debug\net6.0\RestSharp.dll
