@@ -8,7 +8,7 @@ Open up the solution in visual studio and run with or without debugging. Postman
 
 
 Description of Features: 
-I went for a Restful Approach with an MVC design using C# .NET 6. The solution uses an in memory Database to first load the robot list via the 
+I went for an MVC design using C# .NET 6. The solution uses an in memory Database to first load the robot list via the 
 endpoint provided. Then when a post request is executed the RobotController gets the list of available robots from the db and loads them into 
 a priority queue that utilizes a custom comparer to rank the priority of each robot. The comparer checks if the distance is within 10.00 units 
 and then ranks by battery life otherwise it ranks by distance and then battery life. The runtime complexity for this algorithm is O(N*Log(N)) where
